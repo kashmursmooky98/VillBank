@@ -1,0 +1,449 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  backdrop-filter: blur(1.5px);
+}
+#header1{
+background-color:black;
+
+}
+
+footer {
+  background-color: black;  
+  padding: 20px;  
+  border-radius:15px;
+color:white;  
+margin-top:110px;
+}
+
+.foot{
+	padding-left:10px;
+	border-radius:10px;
+	background-color:skyblue;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:20px;
+	font-family:italic;
+	border-style:solid;
+	border-width:1px;
+	border-color:red;
+    color:black;
+	
+	
+}
+.VBlogo1{
+	padding:10px;
+	width:80px;
+    height:50px;
+    border-top-color: black;
+    border-top-style: solid;
+	border-radius:10px;
+	  border-left-color: rgb(173, 204, 233);
+    border-left-style: solid;
+  }
+
+.trust{
+	color:white;
+}
+
+
+ header {
+	height:70px;
+	
+    background-color:whitesmoke;
+    padding: 10px;
+    display: flex; 
+    border-radius:15px;
+    border-bottom-color:;
+    border-left-color: rgb(173, 204, 233);
+    border-left-style: solid;
+	border-left-width: 2px;
+	border-right-color: rgb(173, 204, 233);
+	border-right-style: solid;
+	border-right-width: 2px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom:30px;
+  }
+
+  .VBlogo{
+	  padding-left:5px;
+	  width:150px;
+	   margin-right:0px;
+	   padding-right:40px;
+	   border-top-color: black;
+    border-top-style: solid;
+	border-radius:10px;
+	  border-left-color: black;
+    border-left-style: solid;
+	   
+  }
+  
+ .prof{
+ margin-left:00px;
+  width: 50px;
+  height: 40px;
+ 
+
+  }
+  .profbutt{
+  margin-left:1200px;
+  width: 70px;
+  height: 50px;
+  border-radius:35px;
+  position: fixed;
+  background-color:skyblue;
+  }
+
+.profbutt:hover{
+background-color:gray;
+}
+
+  .profi{
+color:black;
+position:fixed;
+}
+
+
+  
+.VB{
+	color:black;
+	font-size:15px;
+	padding-left:0px;
+	
+  
+}
+.VB2{
+	color:rgba(23, 123, 121, 4.15);
+	font-size:20px;
+	font-family:italic;
+padding-left:300px;
+ 
+}
+.VB3{
+	padding-left:300px;
+	font-size:25px;
+	color:black;
+	
+}
+
+.LOGIN:hover{
+	background-color:lightblue;
+}
+
+.create:hover{
+	background-color:lightblue;
+}
+
+.LOGIN{
+ color: white;
+   text-decoration:none;
+    padding: 5px 15px;
+    margin:10px;
+    border-radius: 5px;
+    background-color: #355;
+	font-size:15px;
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+}
+
+.create{
+	 color: white;
+    padding: 5px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #355;
+	font-size:15px;
+		border-style:solid;
+	border-width:1px;
+	border-color:white;
+	text-decoration:none;
+}
+.loginbox{
+background-color:skyblue;	
+width: 450px;
+height:45	0px;
+border-radius: 12px;
+border-color: black;
+border-style: solid;
+border-width: 3px;
+margin-bottom: 5px;
+margin-left: 13px;
+margin-right: 13px;
+margin-top: 80px;
+padding-left: 20px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 40px;
+padding-top:30px;
+}
+
+.loginbox:hover{
+
+background-color: skyblue	;
+border-color:rgba(53, 106, 53, 1.00);;
+border-style: solid;
+border-width: 4px;
+border-bottom-color:black;
+border-bottom-style: solid;
+border-bottom-width: 4px;
+
+}
+.loginbox input::placeholder{
+	background-color:whitesmoke;
+	color:black;
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	border-radius:5px;
+padding:8px;
+	
+}
+.loginbox1{
+	
+	border-style:solid;
+	border-width:1.5px;
+	border-color:black;
+	height:60px;
+	width:450px;
+	border-radius:20px;
+	padding:7px;
+}
+
+.top1{
+	font-size:25px;
+	margin-top:40px;
+	color:black;
+	margin-bottom:5	0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homebuttons{
+	background-image: url("buttons.jpeg");
+	width:700px;
+	 height:350px;
+	border-radius:25px;
+	padding-left:10px;
+	padding-top:25px;
+	margin-top:80px;
+	filter: blur(0.1px);
+	padding-right:10px;
+	border-style:solid;
+	border-color:black;
+    border-width:2px;
+}  
+#VBlogob{
+    background-color:white;
+    padding:5px;
+	width:90px;
+	height:70px;
+    position: fixed;
+    border-top-color: black;
+    border-top-style: solid;
+	border-radius:10px;
+	border-left-color:skyblue;
+    border-left-style: solid;
+	margin-left:600px;
+}
+
+#space{
+  background-color:white;
+margin-right:190px;
+font-size:18px;
+text-decoration:bold;
+}
+#space:hover{
+	 background-color:skyblue;
+	
+}
+
+
+.homebuttons a {
+ height:10px;
+  display: inline-block;  
+  padding: 20px 30px;  
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  text-decoration: bold;  
+  color: black; 
+  background-color: white;
+  border-block-end-color:black;
+  padding-top:15px;
+  padding-bottom:30px;
+ margin-top:30px;
+ margin-right:150px;
+ margin-left:30px;
+ font-size:15px;
+
+}
+
+.homebuttons a:hover {
+ 
+  background-color:skyblue;  
+  cursor: pointer; 
+  color:blue;
+  border-block-end-color:white;
+}	
+
+
+
+.myaccount{
+	color:blue;
+	background-color:orange;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:8px;
+	
+	width: 250px;
+border-radius: 20px;
+border-left-color: rgb(173, 204, 233);
+border-left-style: solid;
+
+border-right-color: rgb(173, 204, 233);
+border-right-style: solid;
+
+border-top-color: rgb(173, 204, 233);
+border-top-style: solid;
+
+
+margin-bottom: 15px;
+margin-left: 2px;
+margin-right: 23px;
+margin-top: 15px;
+font-family:impact;
+}
+.mysaving{
+	color:blue;
+	background-color:orange;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:8px;
+	
+	width: 250px;
+border-radius: 20px;
+border-left-color: rgb(173, 204, 233);
+border-left-style: solid;
+
+border-right-color: rgb(173, 204, 233);
+border-right-style: solid;
+
+border-top-color: rgb(173, 204, 233);
+border-top-style: solid;
+
+
+margin-bottom: 15px;
+margin-left: 10px;
+margin-right: 13px;
+margin-top: 15px;
+font-family:impact;
+
+}
+
+.profile{
+	text-align:right;
+	text-align:top;
+}
+
+
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+	
+  }
+  nav button {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+	border-color:white;
+	
+	
+  }
+  
+  nav button:hover {
+    background-color: #787;
+  }
+hr{
+	background-color:black;
+height:3px;
+
+}
+
+
+
+
+
+
+
+//pictures
+.slideshow {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+  
+}
+
+.slide {
+  display: none;
+  /* Fade animation */
+  animation-name: fade;
+  animation-duration: 2s;
+  width:500px;
+  height:400px;
+  margin-left:800px;
+  margin-top:75px;
+  margin-bottom:50px;
+  position:fixed;
+  border-radius:10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  filter: blur(.8px);
+}
+
+.slide.fade {
+  animation-play-state: running;
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 2}
+}
+
+.slideshow:hover {
+  cursor: pointer;
+  filter: blur(2px);
+}
+
+
+
+
+

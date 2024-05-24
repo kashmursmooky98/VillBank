@@ -1,0 +1,383 @@
+
+#sidebar {
+   
+
+  height: 305vh;
+  width: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 999;
+
+}
+
+
+#main-content {
+    width: 100%;
+}
+
+#sidebar-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+    background-color: lightblue;
+  
+}
+
+a:hover {
+ background-color:rgba(12,345,234,65);
+}
+
+.dropdown {
+	margin-top:10px;
+  position: relative; 
+  background-color:lightblue;
+  border-radius:5px;
+  margin-bottom:8px;
+}
+
+
+
+.dropdown-content {
+  display: none; 
+  position: absolute; 
+  background-color:rgba(12,345,234,65);
+  
+  min-width: 100%; 
+  z-index: 1; 
+   border-radius:10px;
+ 
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius:10px;
+  margin-bottom:5px;
+
+ border-left-color: rgb(173, 204, 233);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(173, 204, 233);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: black;
+border-top-style: solid;
+border-top-width: 1px;
+border-bottom-color: black;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+  
+  
+}
+
+.dropbtn{
+	background-color:rgba(12,245,434,65);
+    border-radius:5px;
+
+
+
+}
+.logout{
+	margin-top:5px;
+	border-radius:5px;
+}
+
+
+table {
+	margin-left:200px;
+  border-collapse: collapse;
+  width: 1000px;
+  margin-top:10px;
+  margin-bottom:50px;
+  margin-right:0px;
+  border-color: black;
+border-style: solid;
+border-width: 2px;
+  
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+ 
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+td{
+	background-color:white;
+}
+
+ 
+  .VBlogo2{
+	  width:120px;
+	  height:80px;
+	  margin-bottom:15px;
+	 
+	  
+  }
+  .accountt{
+	color:black;
+	margin-top:opx;
+	
+  }
+body {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+background-color: #f0f0f0;
+  backdrop-filter: blur(1.5px);
+}
+
+ .prof{
+ margin-left:00px;
+  width: 50px;
+  height: 50px;
+ 
+
+  }
+  .profbutt{
+margin-left:1150px;
+  width: 50px;
+  height: 50px;
+  border-radius:35px;
+	  position: fixed; 
+  
+
+  }
+  
+   
+  
+  p{
+	  
+	margin-left:0px;  
+	margin-top:5px;
+	color:white;
+	font-size:21px;
+	
+  }
+  
+  footer {
+  background-color: black;  
+  padding: 20px;  
+  border-radius:15px;
+color:white;  
+margin-top:260px;
+width:1160px;
+margin-left:140px;
+height:520px;
+
+}
+
+
+.foot{
+	padding-left:10px;
+	border-radius:10px;
+	background-color:red;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+	font-size:20px;
+	font-family:italic;
+}
+.trust{
+	color:white;
+}
+.VBlogo{
+	  padding-left:0px;
+	  width:100px;
+  }
+  
+  .footp{
+	  padding:0px;
+  }
+  .para{
+	  color:black;
+	 margin-right:2500px;
+	 
+  }
+  
+  
+  
+  
+   nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+	background-color:skyblue;
+	padding-bottom:45px;
+		padding-top:30px;
+		border-radius:15px;
+	width:600px;
+	margin-left:400px;
+  }
+  nav a {
+    color:white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color:skyblue;
+	width:50PX;
+
+  }
+  nav a:hover {
+    background-color: #787;
+	text-decoration:underline;
+  }
+  .ie{
+	  color:white;
+	  background-color:black;
+	  padding:10px;
+	  border-radius:10px;
+	  
+	  
+	  
+	  
+  }
+ 
+ .enter{
+	margin-left:145px;
+	color:BLACK;
+	font-size:25px;
+	background-color:skyblue;
+	padding:20px;
+	width:400px;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+border-radius:10px;
+
+}
+
+
+
+#nextRowButton{
+	color: black;
+	margin-left:590px;
+	font-size:15px;
+	border-radius:10px;
+	padding:5px;
+
+	width:100px;
+		background: rgba(123,123,345,232);
+	
+}
+#nextRowButton:hover{
+	background-color:skyblue;
+	border-width:2px;
+	border-bottom-color:white;
+	color:white;
+	
+}
+
+
+
+
+
+//balance table
+
+/* CSS file: balance.css */
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.balance-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-left: 1000px; /* Adjust the spacing as needed */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    width: 250px; /* Adjust width as needed */
+    position: fixed; 
+}
+
+.balance-box h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.balance-box p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.form-wrapper {
+    flex: 1;
+}
+
+.enter {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2{
+margin-left:200px;
+}

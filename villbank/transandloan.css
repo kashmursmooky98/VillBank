@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.loantable {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+}
+
+.villloan {
+    color: #333;
+    font-size: 24px;
+}
+
+.loanapply {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.applyp {
+    margin-top: 20px;
+}
+
+.loanp {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#message {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/*buttons*/
+
+
+#content {
+    width: 100%;
+    max-width: 1270px;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom:30px;
+	margin-top:10px;
+	margin-left:8px;
+}
+
+nav {
+    background-color: #e8f4fc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #575757;
+	color:white;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #575757;
+	color:white;
+}
+
+
+
+/*footer*/
+
+.footer1{
+	background-color:skyblue;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	margin-left:5px;
+	margin-bottom:5px;
+	padding:10px;
+	border-radius:10px;
+}
